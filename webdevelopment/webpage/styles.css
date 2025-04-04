@@ -1,0 +1,83 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    background-color: #FFE6E6;
+    color: #333;
+  }
+  
+  h1, h2 {
+    font-family: 'Hey Comic', sans-serif;
+    color: #7469B6;
+  }
+  
+  header {
+    background-color: #AD88C6;
+    padding: 1rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #E1AFD1;
+    color: white;
+  }
+  
+  .hero button {
+    background-color: #FFC470;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 400px;
+  }
+  
+  form input, form button {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #DD5746;
+    color: white;
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #8B322C;
+    color: white;
+    padding: 1rem;
+  }
+  
+
+  /*resolving git*/
