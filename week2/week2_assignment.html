@@ -1,0 +1,149 @@
+<!-- Creating a multimedia-rich webpage with audio and video elements -->
+<!-- Designing a registration form with validation attributes  -->
+<!-- Embed an image -->
+<!-- Embed a table -->
+<!-- Create a list -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta and title for the webpage -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Healthcare Volunteering Platform">
+  <title>Healthcare Volunteering Platform</title>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to Healthcare Volunteering</h1>
+    <p>Making a difference in children's lives through volunteering.</p>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section id="list">
+      <h2>Our Program Phases</h2>
+      <ol type="I">
+        <li>Registration</li>
+        <li>Training</li>
+        <li>Volunteer Placement</li>
+        <li>Feedback</li>
+        <li>Continuous Support</li>
+      </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section id="image">
+      <h2>Our Volunteering Environment</h2>
+      <img src="https://images.pexels.com/photos/7345446/pexels-photo-7345446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Hospital Volunteering" width="100%" />
+    </section>
+
+    <!-- Table of Contacts -->
+    <section id="contacts">
+      <h2>Contact Information</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>123 Elm St, Springfield</td>
+            <td>(555) 123-4567</td>
+            <td>johndoe@example.com</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>456 Oak Ave, Shelbyville</td>
+            <td>(555) 987-6543</td>
+            <td>janesmith@example.com</td>
+          </tr>
+          <tr>
+            <td>Emma Brown</td>
+            <td>789 Pine Blvd, Capital City</td>
+            <td>(555) 345-6789</td>
+            <td>emmabrown@example.com</td>
+          </tr>
+          <tr>
+            <td>Michael Johnson</td>
+            <td>321 Birch Rd, Riverton</td>
+            <td>(555) 234-5678</td>
+            <td>michaelj@example.com</td>
+          </tr>
+          <tr>
+            <td>Alice White</td>
+            <td>654 Maple Dr, Northfield</td>
+            <td>(555) 876-5432</td>
+            <td>alicewhite@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="registration">
+      <h2>Register for Volunteering</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="role">Select Role:</label>
+        <select id="role" name="role" required>
+          <option value="volunteer">Volunteer</option>
+          <option value="guardian">Guardian</option>
+          <option value="admin">Administrator</option>
+        </select><br><br>
+
+        <label>Preferred Volunteer Type:</label><br>
+        <input type="radio" id="hospital" name="volunteerType" value="hospital" required>
+        <label for="hospital">Hospital</label><br>
+        <input type="radio" id="cafeteria" name="volunteerType" value="cafeteria" required>
+        <label for="cafeteria">Cafeteria</label><br><br>
+
+        <label for="tasks">Select Tasks:</label><br>
+        <input type="checkbox" id="giftShop" name="tasks" value="giftShop">
+        <label for="giftShop">Gift Shop</label><br>
+        <input type="checkbox" id="makingkindnotes" name="tasks" value="makingkindnotes">
+        <label for="patientErrands">Making kind notes</label><br>
+        <input type="checkbox" id="checkingvitals" name="tasks" value="checkingvitals">
+        <label for="patientErrands">Checking Vitals</label><br>
+        <input type="checkbox" id="bookdelivering" name="tasks" value="bookdelivering">
+        <label for="patientErrands">Delivering books to patient rooms</label><br>
+        <input type="checkbox" id="patientErrands" name="tasks" value="patientErrands">
+        <label for="patientErrands">Patient Errands</label><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="contact">
+    <p>Contact us at: <a href="mailto:info@volunteerhealth.org">info@volunteerhealth.org</a></p>
+    <p>Phone: (555) 123-4567</p>
+  </footer>
+
+</body>
+
+</html>
