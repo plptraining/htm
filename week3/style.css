@@ -1,0 +1,50 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif; /* Different font */
+    background-color: #f0f0f0; /* Background color */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the header */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the h2 elements in the section */
+section h2 {
+    color: #4CAF50; /* Green color for headings */
+    font-size: 24px; /* Different font size */
+}
+
+/* Style for images */
+img {
+    width: 100%; /* Make the image responsive */
+    max-width: 400px; /* Limit the image width */
+    border: 5px solid #ddd; /* Add a border */
+    padding: 10px; /* Add padding inside the image border */
+    margin-top: 20px; /* Space above the image */
+}
+
+/* Style for links */
+a {
+    color: #4CAF50; /* Green color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px; /* Space from the content */
+}
